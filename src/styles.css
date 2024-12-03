@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background-color: #2d3436;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #2d3436;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b2bec3;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0984e3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #74b9ff;
+}
+
+.product-item,
+.user-item,
+.order-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-item p,
+.user-item p,
+.order-item p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #2d3436;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#addProductForm,
+#addUserForm {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#addProductForm label,
+#addUserForm label {
+  display: block;
+  margin-top: 10px;
+}
+
+#fruitInfo {
+  margin-top: 20px;
+}
+
+#fruitInfo h3,
+#fruitInfo h4 {
+  color: #2d3436;
+}
+
+#fruitInfo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#fruitInfo li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #b2bec3;
+}
+

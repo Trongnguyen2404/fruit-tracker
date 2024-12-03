@@ -1,0 +1,41 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Fruit Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quản Trị Viên</h1>
+    </header>
+    <main>
+        <section class="admin-section">
+            <h2>Thêm Tài Khoản Mới</h2>
+            <form id="addUserForm">
+                <input type="text" id="userAddress" placeholder="Địa chỉ ví" required>
+                <select id="userRole" required>
+                  <option value="" disabled selected>Chọn vai trò</option>
+                  <option value="1">Chủ Nông Trại</option>
+                  <option value="2">Kho Phân Loại</option>
+                  <option value="3">Giao Hàng</option>
+                </select>
+              
+                <input type="text" id="userName" placeholder="Tên" required>
+                <input type="email" id="userEmail" placeholder="Email" required>
+                <input type="text" id="userPhone" placeholder="Số điện thoại" required>
+                <button type="submit">Thêm Tài Khoản</button>
+            </form>
+            <h2>Danh Sách Tài Khoản</h2>
+            <div id="userList"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hệ Thống Theo Dõi Trái Cây</p>
+    </footer>
+    <!-- Thêm script Web3 từ CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

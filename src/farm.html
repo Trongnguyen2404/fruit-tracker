@@ -1,0 +1,39 @@
+<!-- farm.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nông Trại - Fruit Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nông Trại</h1>
+    </header>
+    <main>
+        <section class="farm-section">
+            <button id="addProductBtn">Thêm Sản Phẩm</button>
+            <form id="addProductForm" style="display: none;">
+                <input type="text" id="name" placeholder="Tên sản phẩm" required>
+                <input type="number" id="price" placeholder="Giá" required>
+                <input type="number" id="quantity" placeholder="Số lượng" required>
+                <input type="text" id="origin" placeholder="Nguồn gốc" required>
+                <label>Ngày sản xuất:</label>
+                <input type="date" id="productionDate" required>
+                <label>Ngày hết hạn:</label>
+                <input type="date" id="expirationDate">
+                <input type="text" id="destination" placeholder="Đích đến" required>
+                <button type="submit">Thêm Sản Phẩm</button>
+            </form>
+            <h2>Danh Sách Sản Phẩm</h2>
+            <div id="productList"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hệ Thống Theo Dõi Trái Cây</p>
+    </footer>
+    <!-- Thêm script Web3 từ CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

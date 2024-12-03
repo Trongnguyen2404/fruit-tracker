@@ -1,0 +1,19 @@
+{
+  "name": "fruit-tracking",
+  "version": "1.0.0",
+  "description": "Ứng dụng theo dõi trái cây từ nông trại đến khách hàng",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "solc": "^0.8.20",
+    "web3": "^4.15.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.5.0"
+  }
+}
